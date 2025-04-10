@@ -22,7 +22,7 @@ modules:
     sources:
       - type: file
         dest-filename: DisCorkie.zip
-        url: https://github.com/AppOutlet/GetDisCorkie/releases/download/1.1.3/DisCorkie-linux-1.1.3.zip
-        sha256: c6f3e2ac34d1cb136efec253c85f155674355195163927f83ecc9c7f59c6e3bf
+        url: https://github.com/AppOutlet/GetDisCorkie/releases/download/1.1.5/DisCorkie-linux-1.1.5.zip
+        sha256: b8b75a10b5c8a18faa64b3699a7fbaa9bbc036fbc5e4fd8e6db70d1f5928594b
       - type: file
         path: DisCorkie.sh

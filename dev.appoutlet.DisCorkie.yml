@@ -1,11 +1,12 @@
 id: dev.appoutlet.DisCorkie
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 command: DisCorkie
 finish-args:
   - --device=dri
   - --socket=x11
+  - --socket=pulseaudio
   - --share=network
   - --share=ipc
 
@@ -22,7 +23,7 @@ modules:
     sources:
       - type: file
         dest-filename: DisCorkie.zip
-        url: https://github.com/AppOutlet/GetDisCorkie/releases/download/1.6.0/DisCorkie-linux-1.6.0.zip
-        sha256: 0e294d34eb93750d1abd0b744ccd5ca87f1bb913f6427e971b169f214840bdd9
+        url: https://github.com/AppOutlet/GetDisCorkie/releases/download/1.6.1/DisCorkie-linux-1.6.1.zip
+        sha256: aaf5d222a35d198abacbd0bcebc0034861d363de4ac51d7e7a0854a091495cdc
       - type: file
         path: DisCorkie.sh

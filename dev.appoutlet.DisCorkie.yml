@@ -1,7 +1,7 @@
 id: dev.appoutlet.DisCorkie
-runtime: org.freedesktop.Platform
-runtime-version: '25.08'
-sdk: org.freedesktop.Sdk
+runtime: org.gnome.Platform
+runtime-version: '49'
+sdk: org.gnome.Sdk
 command: DisCorkie
 finish-args:
   - --device=dri
@@ -23,7 +23,7 @@ modules:
     sources:
       - type: file
         dest-filename: DisCorkie.zip
-        url: https://github.com/AppOutlet/GetDisCorkie/releases/download/1.7.15/DisCorkie-linux-1.7.15.zip
-        sha256: 72493f627960d0de8a8e9aa0a9a73ca1f2e1e5e7d9ba31c6c05400393cd06236
+        url: https://github.com/AppOutlet/GetDisCorkie/releases/download/1.7.16/DisCorkie-linux-1.7.16.zip
+        sha256: 55ff2322b8777b10816bb4eb5ef67fb39c425a550de844d73efd0a2a40ecc446
       - type: file
         path: DisCorkie.sh

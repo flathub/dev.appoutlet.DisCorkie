@@ -3,6 +3,8 @@ runtime: org.gnome.Platform
 runtime-version: '49'
 sdk: org.gnome.Sdk
 command: DisCorkie
+tags: 
+  - proprietary
 finish-args:
   - --device=dri
   - --socket=x11

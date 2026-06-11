@@ -1,6 +1,6 @@
 id: dev.appoutlet.DisCorkie
 runtime: org.gnome.Platform
-runtime-version: '49'
+runtime-version: '50'
 sdk: org.gnome.Sdk
 command: DisCorkie
 finish-args:
@@ -23,7 +23,7 @@ modules:
     sources:
       - type: file
         dest-filename: DisCorkie.zip
-        url: https://github.com/AppOutlet/GetDisCorkie/releases/download/1.8.0/DisCorkie-linux-1.8.0.zip
-        sha256: 72a2304370f1e6c69c322ab908d1819683f7b3b0b774adfaf4c46ced503bdeb0
+        url: https://github.com/AppOutlet/GetDisCorkie/releases/download/1.8.4/DisCorkie-linux-1.8.4.zip
+        sha256: 7ae4e81821a585f38bb273da99f92c656f16aec3f1d1c82241783daf56d4d54f
       - type: file
         path: DisCorkie.sh
